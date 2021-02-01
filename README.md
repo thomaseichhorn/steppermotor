@@ -4,6 +4,7 @@ Script to control a TMC2208 stepper motor via a Raspberry Pi.
 
 Connections:
 
+```
 GND <-> Pi GND and external voltage GND
 VIO <-> MS1
 VM  <-> external voltage
@@ -13,4 +14,10 @@ CLK <-> GND
 MS2 <-> GND
 MS1 <-> VIO
 EN  <-> GND
+```
 
+Usage:
+
+```
+python stepper.py <stepcount>
+```
